@@ -11,7 +11,10 @@ import {
     Button,
     Dropdown,
     DropdownMenu,
-    DropdownItem
+    DropdownItem,
+    Row,
+    Col,
+    Card
 } from 'element-ui'
 
 Vue.use(Aside)
@@ -26,3 +29,6 @@ Vue.use(Button)
 Vue.use(Dropdown)
 Vue.use(DropdownItem)
 Vue.use(DropdownMenu)
+Vue.use(Row)
+Vue.use(Col)
+Vue.use(Card)
